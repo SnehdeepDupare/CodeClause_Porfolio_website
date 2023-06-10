@@ -37,6 +37,7 @@ body {
   top: 0;
   z-index: 100;
   background-image: linear-gradient(to bottom, black, var(--primary-bg-color));
+  /* background-color: aqua; */
 }
 
 .container {
@@ -535,8 +536,24 @@ nav .fa {
   .project-grid {
     margin-top: 20px;
   }
+  .project-name {
+    font-size: 16px;
+  }
 
   .project-desc {
     font-size: 14px;
+  }
+
+  .about-container,
+  .project-container,
+  .contact-container {
+    padding: 60px 0 0 0;
+  }
+  .contact-links {
+    padding: 15px 0;
+  }
+
+  .contact-links p {
+    font-size: 13px;
   }
 }

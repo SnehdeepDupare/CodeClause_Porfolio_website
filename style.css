@@ -517,3 +517,22 @@ nav .fa {
     width: 300px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .about-container {
+    width: 90%;
+  }
+
+  .about-text {
+    padding: 15px 0;
+    font-size: 12px;
+  }
+
+  .project-grid {
+    margin-top: 20px;
+  }
+
+  .project-desc {
+    font-size: 14px;
+  }
+}

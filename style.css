@@ -37,7 +37,6 @@ body {
   top: 0;
   z-index: 100;
   background-image: linear-gradient(to bottom, black, var(--primary-bg-color));
-  /* background-color: aqua; */
 }
 
 .container {

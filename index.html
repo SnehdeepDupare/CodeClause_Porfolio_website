@@ -192,9 +192,10 @@
             loop: true,
         });
 
-        function resetForm() {
-            const element = document.getElementById("contact-form");
-            element.reset();
+        window.onbeforeunload = () => {
+            for (const form of document.getElementsByTagName('form')) {
+                form.reset();
+            }
         }
     </script>
     <script>

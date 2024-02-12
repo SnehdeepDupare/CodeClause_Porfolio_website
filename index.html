@@ -12,6 +12,14 @@
 
 <body>
     <div id="header">
+        <div class="info-container">
+            <div class="info-text">
+                This website is no longer updated. 
+                <span>
+                    <a href="https://www.snehdeepdupare.in/" target="_blank" class="updated-link">Go to snehdeepdupare.in</a>
+                </span>
+            </div>
+        </div>
         <div class="container">
             <nav>
                 <p class="logo-text">
@@ -42,7 +50,6 @@
                         Hi, I am <span class="home-text-name"> Snehdeep Dupare. </span>
                     </p>
                     <p class="home-text">
-
                         <span id="element"></span>
                     </p>
                     <a href="/resume/Snehdeep Resume.pdf" download="Snehdeep Dupare Resume">
@@ -183,29 +190,32 @@
         </section>
     </main>
 
-
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed("#element", {
-            strings: ["Full Stack Developer.^1000", "Java Developer.^1000", "UI Designer.^1000"],
+            strings: [
+                "Full Stack Developer.^1000",
+                "Java Developer.^1000",
+                "UI Designer.^1000",
+            ],
             typeSpeed: 50,
             loop: true,
         });
 
         window.onbeforeunload = () => {
-            for (const form of document.getElementsByTagName('form')) {
+            for (const form of document.getElementsByTagName("form")) {
                 form.reset();
             }
-        }
+        };
     </script>
     <script>
-        var sidemenu = document.getElementById("sidemenu")
+        var sidemenu = document.getElementById("sidemenu");
 
         function openSidemenu() {
-            sidemenu.style.right = "0px"
+            sidemenu.style.right = "0px";
         }
         function closeSidemenu() {
-            sidemenu.style.right = "-200px"
+            sidemenu.style.right = "-200px";
         }
     </script>
 </body>
